@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>香港 7月14日至17日旅行点位</name>
+    <description>按完整旅行规划整理的香港四天行程点位。酒店为湾仔庆云街19号；西贡徒步段为地理参考线。</description>
+    <Style id="day14"><IconStyle><color>ff6e760f</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle><LineStyle><color>ff6e760f</color><width>4</width></LineStyle></Style>
+    <Style id="day15"><IconStyle><color>ffa86325</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle><LineStyle><color>ffa86325</color><width>4</width></LineStyle></Style>
+    <Style id="day16"><IconStyle><color>ff105a8a</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon></IconStyle><LineStyle><color>ff105a8a</color><width>4</width></LineStyle></Style>
+    <Style id="day17"><IconStyle><color>ff623a8b</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon></IconStyle><LineStyle><color>ff623a8b</color><width>4</width></LineStyle></Style>
+    <Style id="hotel"><IconStyle><color>ff3a1fbd</color><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon></IconStyle></Style>
+
+    <Folder>
+      <name>7月14日 周二：抵港与太平山</name>
+      <Placemark><name>13:00 香港国际机场</name><description>抵达、入境、取行李，预计 1-1.5 小时。</description><styleUrl>#hotel</styleUrl><Point><coordinates>113.9185,22.3080,0</coordinates></Point></Placemark>
+      <Placemark><name>14:30-15:30 湾仔庆云街19号酒店</name><description>机场快线到香港站，再打车到酒店。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>16:30-17:00 花园道山顶缆车站</name><description>从酒店打车最方便，建议提前购票。</description><styleUrl>#day14</styleUrl><Point><coordinates>114.1592,22.2783,0</coordinates></Point></Placemark>
+      <Placemark><name>17:00-17:30 山顶缆车上山</name><description>到达山顶广场一带。</description><styleUrl>#day14</styleUrl><Point><coordinates>114.1499,22.2715,0</coordinates></Point></Placemark>
+      <Placemark><name>17:30-19:00 山顶广场 / 凌霄阁</name><description>山顶活动核心区，可补给、观景。</description><styleUrl>#day14</styleUrl><Point><coordinates>114.1498,22.2718,0</coordinates></Point></Placemark>
+      <Placemark><name>17:30-19:00 卢吉道观景段</name><description>走前段即可，主要看中环、维港、九龙方向。</description><styleUrl>#day14</styleUrl><Point><coordinates>114.1455,22.2758,0</coordinates></Point></Placemark>
+      <Placemark><name>19:00-20:00 太平山夜景观赏点</name><description>日落和夜景重点时段。</description><styleUrl>#day14</styleUrl><Point><coordinates>114.1491,22.2716,0</coordinates></Point></Placemark>
+      <Placemark><name>21:00后 中环 / 湾仔晚餐后回酒店</name><description>第一天不建议安排太晚。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>7月14日路线</name><styleUrl>#day14</styleUrl><LineString><tessellate>1</tessellate><coordinates>113.9185,22.3080,0 114.1782,22.2770,0 114.1592,22.2783,0 114.1499,22.2715,0 114.1498,22.2718,0 114.1455,22.2758,0 114.1491,22.2716,0 114.1782,22.2770,0</coordinates></LineString></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>7月15日 周三：中环、尖沙咀、跑马地</name>
+      <Placemark><name>09:00-09:30 湾仔庆云街19号酒店</name><description>前往中环，可乘巴士、港铁或打车。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>09:30-12:30 中环街市</name><description>中环及上环城市漫步起点。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1589,22.2819,0</coordinates></Point></Placemark>
+      <Placemark><name>09:30-12:30 半山扶梯</name><description>从中环向半山方向慢走。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1537,22.2825,0</coordinates></Point></Placemark>
+      <Placemark><name>09:30-12:30 大馆 Tai Kwun</name><description>历史建筑群，适合安排较长停留。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1539,22.2813,0</coordinates></Point></Placemark>
+      <Placemark><name>09:30-12:30 PMQ 元创方</name><description>文创、设计店铺集中。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1525,22.2834,0</coordinates></Point></Placemark>
+      <Placemark><name>09:30-12:30 文武庙 / 荷李活道</name><description>上午步行段西侧终点。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1500,22.2844,0</coordinates></Point></Placemark>
+      <Placemark><name>12:30-14:00 中环 / 上环午餐区域</name><description>茶餐厅、烧味或港式点心。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1550,22.2820,0</coordinates></Point></Placemark>
+      <Placemark><name>15:30-16:00 中环码头 / 天星小轮</name><description>从中环码头上船前往尖沙咀。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1613,22.2873,0</coordinates></Point></Placemark>
+      <Placemark><name>16:00-18:00 尖沙咀码头 / 钟楼</name><description>下船后开始维港海滨步行。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1686,22.2930,0</coordinates></Point></Placemark>
+      <Placemark><name>16:00-18:00 香港文化中心</name><description>灯光秀前后都适合观景。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1698,22.2932,0</coordinates></Point></Placemark>
+      <Placemark><name>16:00-19:30 星光大道</name><description>晚餐前海滨散步重点段。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1747,22.2937,0</coordinates></Point></Placemark>
+      <Placemark><name>18:00-19:30 K11 MUSEA 海滨 / 晚餐</name><description>建议在灯光秀前吃完。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1745,22.2932,0</coordinates></Point></Placemark>
+      <Placemark><name>19:30-20:10 幻彩咏香江观赏点</name><description>香港文化中心外或星光大道观看。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1715,22.2933,0</coordinates></Point></Placemark>
+      <Placemark><name>20:15-20:35 湾仔码头</name><description>从尖沙咀码头乘天星小轮返回湾仔。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1750,22.2815,0</coordinates></Point></Placemark>
+      <Placemark><name>20:35-20:50 跑马地马场公众席入口</name><description>从湾仔码头打车约 10-15 分钟。</description><styleUrl>#day15</styleUrl><Point><coordinates>114.1830,22.2722,0</coordinates></Point></Placemark>
+      <Placemark><name>23:00后 返回庆云街酒店</name><description>距离较近，可步行或短程打车。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>7月15日路线</name><styleUrl>#day15</styleUrl><LineString><tessellate>1</tessellate><coordinates>114.1782,22.2770,0 114.1589,22.2819,0 114.1537,22.2825,0 114.1539,22.2813,0 114.1525,22.2834,0 114.1500,22.2844,0 114.1550,22.2820,0 114.1613,22.2873,0 114.1686,22.2930,0 114.1698,22.2932,0 114.1747,22.2937,0 114.1745,22.2932,0 114.1715,22.2933,0 114.1750,22.2815,0 114.1830,22.2722,0 114.1782,22.2770,0</coordinates></LineString></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>7月16日 周四：西贡与麦理浩径二段</name>
+      <Placemark><name>07:00-07:30 湾仔庆云街19号酒店</name><description>早起前往西贡，避开中午高温。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>08:30左右 西贡市中心</name><description>购买早餐、水和徒步补给。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.2714,22.3835,0</coordinates></Point></Placemark>
+      <Placemark><name>09:00-09:40 万宜水库东坝</name><description>建议从西贡市中心与其他游客拼出租车。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3711,22.3648,0</coordinates></Point></Placemark>
+      <Placemark><name>09:40-10:20 东坝地质景观</name><description>六角形岩柱和水库景观。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3742,22.3642,0</coordinates></Point></Placemark>
+      <Placemark><name>10:20-11:00 浪茄湾</name><description>进入麦理浩径第二段附近路线。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3794,22.3645,0</coordinates></Point></Placemark>
+      <Placemark><name>11:00-12:30 西湾山路段</name><description>较晒、爬升明显，注意补水。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3848,22.3823,0</coordinates></Point></Placemark>
+      <Placemark><name>12:30-13:15 西湾</name><description>休息和午餐，建议自带干粮。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3792,22.3935,0</coordinates></Point></Placemark>
+      <Placemark><name>13:15-14:15 咸田湾</name><description>麦理浩径经典海岸景观。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3823,22.3995,0</coordinates></Point></Placemark>
+      <Placemark><name>14:15-16:00 大浪坳</name><description>前往北潭凹前仍有上下坡。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3695,22.4092,0</coordinates></Point></Placemark>
+      <Placemark><name>16:00后 北潭凹</name><description>乘 94 路巴士或打车返回西贡，留意班次。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.3248,22.4079,0</coordinates></Point></Placemark>
+      <Placemark><name>17:00-18:30 西贡晚餐</name><description>徒步后补充水分和能量。</description><styleUrl>#day16</styleUrl><Point><coordinates>114.2714,22.3835,0</coordinates></Point></Placemark>
+      <Placemark><name>18:30-20:00 返回庆云街酒店</name><description>当晚不再安排其他景点。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>7月16日路线</name><styleUrl>#day16</styleUrl><LineString><tessellate>1</tessellate><coordinates>114.1782,22.2770,0 114.2714,22.3835,0 114.3711,22.3648,0 114.3742,22.3642,0 114.3794,22.3645,0 114.3848,22.3823,0 114.3792,22.3935,0 114.3823,22.3995,0 114.3695,22.4092,0 114.3248,22.4079,0 114.2714,22.3835,0 114.1782,22.2770,0</coordinates></LineString></Placemark>
+    </Folder>
+
+    <Folder>
+      <name>7月17日 周五：香港大学与返程</name>
+      <Placemark><name>07:30-08:00 湾仔庆云街19号酒店</name><description>退房并寄存行李，提前与酒店确认。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>08:00-08:40 香港大学站</name><description>打车最快，也可乘港铁到香港大学站。</description><styleUrl>#day17</styleUrl><Point><coordinates>114.1370,22.2830,0</coordinates></Point></Placemark>
+      <Placemark><name>08:40-10:30 香港大学百周年校园</name><description>百周年校园、大学街、中山广场。</description><styleUrl>#day17</styleUrl><Point><coordinates>114.1367,22.2839,0</coordinates></Point></Placemark>
+      <Placemark><name>08:40-10:30 香港大学主楼外观</name><description>工作日上午参观建议提前预约。</description><styleUrl>#day17</styleUrl><Point><coordinates>114.1383,22.2842,0</coordinates></Point></Placemark>
+      <Placemark><name>10:30-11:10 返回酒店取行李</name><description>建议打车，减少转车时间。</description><styleUrl>#hotel</styleUrl><Point><coordinates>114.1782,22.2770,0</coordinates></Point></Placemark>
+      <Placemark><name>11:15-11:45 香港站</name><description>预留堵车和取票时间。</description><styleUrl>#day17</styleUrl><Point><coordinates>114.1589,22.2849,0</coordinates></Point></Placemark>
+      <Placemark><name>12:30-13:00 香港国际机场 T2</name><description>距 16:00 起飞约 3 小时，按 T2 指引办理手续。</description><styleUrl>#hotel</styleUrl><Point><coordinates>113.9185,22.3080,0</coordinates></Point></Placemark>
+      <Placemark><name>16:00 航班起飞离开香港</name><description>提前确认航空公司值机柜台和登机口。</description><styleUrl>#hotel</styleUrl><Point><coordinates>113.9185,22.3080,0</coordinates></Point></Placemark>
+      <Placemark><name>7月17日路线</name><styleUrl>#day17</styleUrl><LineString><tessellate>1</tessellate><coordinates>114.1782,22.2770,0 114.1370,22.2830,0 114.1367,22.2839,0 114.1383,22.2842,0 114.1782,22.2770,0 114.1589,22.2849,0 113.9185,22.3080,0 113.9185,22.3080,0</coordinates></LineString></Placemark>
+    </Folder>
+  </Document>
+</kml>
